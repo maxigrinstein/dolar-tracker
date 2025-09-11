@@ -76,7 +76,7 @@ function App() {
     <div className="min-h-screen min-w-screen px-4 py-8 max-w-6xl mx-auto bg-slate-950 text-slate-100">
       <header className="mb-8 text-center">
         <h1 className="text-3xl font-bold tracking-tight">
-          USD/ARS (DolarApi)
+          USD/ARS
         </h1>
         <p className="text-slate-400">
           Última actualización: {updatedAt ? new Date(updatedAt).toLocaleString("es-AR") : "—"}
