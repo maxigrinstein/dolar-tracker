@@ -1,7 +1,7 @@
 export default function RateCard({ label, buy, sell, source}){
     return(
-        <div className="rounded-2xl p-4 bg-slate-900 border border-slate-800 shadow">
-            <div className="text-sm uppercase tracking-wider text-slate-400">{label}</div>
+        <div className="rounded-2xl p-4 bg-slate-900 border border-slate-800 shadow hover:bg-slate-800 transition-all">
+            <div className="text-sm uppercase tracking-wider text-slate-400 ">{label}</div>
                 <div className="mt-2 flex items-end gap-6">
                     <div>
                         <div className="text-xs text-slate-400">Compra</div>
